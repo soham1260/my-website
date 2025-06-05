@@ -16,8 +16,8 @@ export default function HomeContent() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em",display:"flex",justifyContent:"left"}}>
-              LET ME&nbsp;<span className="purple">INTRODUCE</span>&nbsp;MYSELF
+            <h1 style={{fontSize:"2.6em",textAlign:"left"}}>
+              LET ME&nbsp;<span className="mobile-break" /><span className="purple">INTRODUCE</span>&nbsp;<span className="mobile-break" />MYSELF
             </h1>
             <p className="home-about-body">
                 The joy of creating drives me — maybe that's why I love programming.

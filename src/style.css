@@ -140,6 +140,16 @@ button:focus {
   opacity: 0.9 !important;
 }
 
+.mobile-break {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-break {
+    display: block;
+  }
+}
+
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
